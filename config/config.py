@@ -114,14 +114,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TG_NAME_STYLE"
+    "SUPPORT_CHANNEL", "https://t.me/SARKAR_UPDATE"
 )  # Example:- https://t.me/ll_MOI_ll
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ll_MOI_ll"
+    "SUPPORT_GROUP", "https://t.me/SARKAR_SUPPORT"
 )  # Example:- https://t.me/ll_MOI_ll
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_NAME_STYLE"
+    "SUPPORT_GROUP", "https://t.me/SARKAR_SUPPORT"
 )  # Example:- https://t.me/TG_NAME_STYLE
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
