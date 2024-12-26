@@ -11,29 +11,19 @@ AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
 
 START_IMG_URLS = "https://graph.org/file/c34b45597296ef3c0de86-4cacc0a2f33d528852.jpg"
 
-MESSAGE = f"""✨ Best Trading Platform ✨
+MESSAGE = f"""๏꯭ P꯭ᴀɪ꯭ᴅ꯭ P꯭ʀ꯭ᴏ꯭ᴍ꯭ᴏ꯭ᴛ꯭ɪ꯭ᴏɴ꯭s꯭꯭ ꯭ᴀᴠ꯭ᴀɪ꯭ʟᴀ꯭ʙ꯭ʟ꯭ᴇ 
 
-✅Signup Bonus - ₹28 🎁
-➡️Min Deposite - ₹100 💸
-➡️Min Withdraw - ₹110 💸
-                    
-➡️High referral bouns, Best salary 👑
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9
-https://t.me/+DThO9ys_cvU5NGU9"""
+➻ Pʀᴏᴍᴏᴛᴇ ᴄʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘs, ᴄᴏʟᴏᴜʀ ᴛʀᴀᴅɪɴɢ ɢᴀᴍᴇs, ᴄʜᴀɴɴᴇʟs, ʙᴇᴛᴛɪɴɢ ᴀᴅs ᴏʀ ᴀɴʏᴛʜɪɴɢ. 
+๏ ᴅᴀɪʟʏ , ᴡᴇᴇᴋʟʏ , ᴍᴏɴᴛʜʟʏ ᴘʟᴀɴs ᴀᴠᴀɪʟᴀʙʟᴇ. 
+
+➻𝐃𝐌 @ll_SARKAR_OWNER_ll"""
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
                 "➻𝐌ᴏʀᴇ 𝐈ɴғᴏ 𝐃ᴍ 𝐌ᴇ",
-                url=f"https://t.me/+DThO9ys_cvU5NGU9",
+                url=f"https://t.me/ll_SARKAR_OWNER_ll",
             )
         ]
     ]
@@ -84,11 +74,10 @@ async def continuous_broadcast():
             except Exception as e:
                 pass
 
-        # Wait for 100 seconds before next broadcast
-        await asyncio.sleep(100)
+        # Wait for 1000 seconds before next broadcast
+        await asyncio.sleep(1000)
 
 
 # Start the continuous broadcast loop if AUTO_GCASTS is True
 if AUTO_GCASTS:
     asyncio.create_task(continuous_broadcast())
-    
